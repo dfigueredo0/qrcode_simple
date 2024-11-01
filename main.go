@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	url := "https://www.linkedin.com/in/dfigueredo/"
+	url := "https://example.com/" // your URL here.
 	filename := "qrcode.png"
 
 	err := qrcode.WriteFile(url, qrcode.High, 512, filename)
